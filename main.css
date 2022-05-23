@@ -1,0 +1,36 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+}
+
+.error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s;
+}
+
+footer {
+    background-color: gainsboro;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 115px;
+    transition: all 0.4s;
+}
+
+#copyright {
+    font-family: 'Courier New', Courier, monospace;
+    color: #1E1926;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#copyright:hover {
+    color: blue;
+}
